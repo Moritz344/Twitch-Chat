@@ -8,7 +8,7 @@ Get the Twitch chat messages from streamers in your terminal!
 # Usage
 ```bash
 git clone https://github.com/Moritz344/Twitch.Chat.git
-cd Twitch.Chat
+cd Twitch-Chat
 python3 main.py
 ```
 
