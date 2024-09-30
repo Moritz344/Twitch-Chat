@@ -3,6 +3,7 @@ from dotenv import load_dotenv
 import os
 from termcolor import colored
 import random
+from datetime import datetime
 
 load_dotenv("secret.env")
 Twitch_token = os.getenv("TOKEN")
@@ -28,9 +29,10 @@ class Chat(commands.Bot):
             self.farben = "white"
         if message.author.name == "streamelements":
             self.farben = "white"
-
+            
+        self.date_now = datetime.now()strftime("%H:%M")
         color_message = colored(f"{message.author.name}",self.farben)
-        print(f"{color_message}: {message.content}")
+        print(f"[{self.date_now}]{color_message}: {message.content}")
 
 if __name__ == "__main__":
     bot = Chat()
