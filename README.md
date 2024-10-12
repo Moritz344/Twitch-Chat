@@ -1,7 +1,7 @@
 # Twitch-Chat
 Get the Twitch chat messages from streamers in your terminal!
 
-![Screenshot_390](https://github.com/user-attachments/assets/95ad4f84-8d1c-4d5c-9659-ca1dc768c2d2)
+![Screenshot_19](https://github.com/user-attachments/assets/9613337f-40c2-41d3-a0e3-7b24dfbb9ca1)
 
 
 
