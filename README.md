@@ -11,9 +11,11 @@ git clone https://github.com/Moritz344/Twitch.Chat.git
 cd Twitch-Chat
 python3 main.py
 ```
+Exit with Ctrl + c
 
 # Info
 you need to edit the secret.env and replace it with your ACCESS TOKEN.
+
 
 ## Author
 - [@Moritz344](https://www.github.com/Moritz344)
