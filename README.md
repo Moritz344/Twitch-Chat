@@ -12,6 +12,7 @@ pip install -r requirements.txt
 ```bash
 git clone https://github.com/Moritz344/Twitch.Chat.git
 cd Twitch-Chat
+cd src
 python3 main.py
 ```
 Exit with Ctrl + c
