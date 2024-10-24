@@ -3,7 +3,10 @@ Get the Twitch chat messages from streamers in your terminal 😎
 
 ![Screenshot_19](https://github.com/user-attachments/assets/9613337f-40c2-41d3-a0e3-7b24dfbb9ca1)
 
-
+# Requirements
+```bash
+pip install -r requirements.txt
+```
 
 # Usage
 ```bash
@@ -12,6 +15,8 @@ cd Twitch-Chat
 python3 main.py
 ```
 Exit with Ctrl + c
+
+
 
 # Info
 you need to edit the secret.env and replace it with your ACCESS TOKEN.
