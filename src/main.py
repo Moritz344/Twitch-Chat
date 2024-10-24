@@ -2,6 +2,7 @@
 # Kommen zwei Stumme in die Bar. Sagt der eine:"",Sagt der andere:"".
 #------------------------------------
 
+
 from twitchio.ext import commands
 from dotenv import load_dotenv
 import os
