@@ -18,10 +18,11 @@ python3 main.py
 Exit with Ctrl + c
 
 
-
 # Info
 you need to edit the secret.env and replace it with your ACCESS TOKEN.
 
+# Twitch Gui App
+Working on a gui app for Twitch-Chat.
 
 ## Author
 - [@Moritz344](https://www.github.com/Moritz344)
