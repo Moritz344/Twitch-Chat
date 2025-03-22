@@ -22,7 +22,9 @@ Exit with Ctrl + c
 you need to edit the secret.env and replace it with your ACCESS TOKEN.
 
 # Twitch Gui App
-Working on a gui app for Twitch-Chat.
+My Private Twitch Chat App:
+https://github.com/Moritz344/Twitch-App-Gui.git
+
 
 ## Author
 - [@Moritz344](https://www.github.com/Moritz344)
