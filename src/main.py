@@ -2,15 +2,13 @@
 # Kommen zwei Stumme in die Bar. Sagt der eine:"",Sagt der andere:"".
 #------------------------------------
 
-
-
-
 from twitchio.ext import commands
 from dotenv import load_dotenv
 import os
 from termcolor import colored
 import random
 from datetime import datetime
+from ascii_art import *
 
 load_dotenv("secret.env")
 Twitch_token = os.getenv("TOKEN")
@@ -19,9 +17,10 @@ channel = None
 
 def main():
     os.system("clear")
+    print(random.choice(ascii_list))
     print(colored("Works offline and online.", "yellow"))
     print(colored("Press ctrl + c to quit.", "red"))
-    channel = input("Type a Channel (Streamer) name: ")
+    channel = input(colored("Type a Channel (Streamer) name: ","green"))
     return channel
 
 channel = main()
