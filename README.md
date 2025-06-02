@@ -33,9 +33,6 @@ Exit with Ctrl + c
 # Info
 you need to edit the secret.env and replace it with your ACCESS TOKEN.
 
-# Twitch Gui App
-My Private Twitch Chat App as a gui:
-https://github.com/Moritz344/Private-Twitch.git
 
 
 ## Author
