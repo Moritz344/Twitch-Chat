@@ -51,8 +51,11 @@ class Chat(commands.Bot):
 
 
 if __name__ == "__main__":
-    bot = Chat()
-    bot.run()
+    try:
+        bot = Chat()
+        bot.run()
+    except Exception as e:
+        print("Please create a secret.env file with your ACCESS TOKEN. Like TOKEN=1234")
 
 print(colored(f"\nMenge an Chat Nachrichten: {count}", "green"))
 
