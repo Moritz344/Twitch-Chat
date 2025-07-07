@@ -56,8 +56,7 @@ if __name__ == "__main__":
         bot = Chat()
         bot.run()
     except Exception as e:
-        print("Please create a secret.env file with your ACCESS TOKEN. Like TOKEN=1234")
-        print(e)
+        print("Please create a secret.env file with your ACCESS TOKEN. Like TOKEN=bsddfds24drfg")
 
 print(colored(f"\nMenge an Chat Nachrichten: {count}", "green"))
 
