@@ -26,8 +26,9 @@ def main():
 channel = main()
 
 class Chat(commands.Bot):
-    def __init__(self):
-        super().__init__(token=Twitch_token, prefix=None, initial_channels=[channel])
+    def __init__(self,**kwargs):
+        super().__init__(token=Twitch_token,prefix=None, initial_channels=[channel],**kwargs)
+
 
     async def event_ready(self):
         print(colored(f"Bot ist bereit und verbunden mit {self.nick} im Kanal {channel}", "yellow"))
@@ -56,6 +57,7 @@ if __name__ == "__main__":
         bot.run()
     except Exception as e:
         print("Please create a secret.env file with your ACCESS TOKEN. Like TOKEN=1234")
+        print(e)
 
 print(colored(f"\nMenge an Chat Nachrichten: {count}", "green"))
 
