@@ -14,6 +14,8 @@ Get the Twitch chat messages from streamers in your terminal 🧙
 
 </details>
 
+# Gui Frontend
+https://github.com/Moritz344/Private-Twitch
 
 # Requirements
 ```bash
