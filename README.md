@@ -14,6 +14,12 @@ Get the Twitch chat messages from streamers in your terminal 🧙
 
 </details>
 
+# Features/TODOS
+- [x] Listen to Twitch Messages
+- [x] Different Colors for usernames
+- [x] Datetime tag
+- [x] Run script 
+
 # Gui Frontend
 https://github.com/Moritz344/Private-Twitch
 
